@@ -1,4 +1,12 @@
 save_pic_from_tieba
 ===================
 
-input the url of a post of tieba.baidu , then save the pics in this post ...
+输入一个百度贴吧帖子只看楼主的地址，
+然后把楼主发言的所有图片下载下来，放到一个以帖子名字命名的文件夹。
+
+主要是有的时候，贴吧有些帖子发漫画连载啊，壁纸啊，美图啊之类的，快速右键功能。。
+
+需要:
+py3.3
+requests 
+BeautifulSoup
